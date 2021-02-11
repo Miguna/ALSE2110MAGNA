@@ -26,13 +26,13 @@ int main(int argc, char** argv){
 
 	coms = com + com2;
 	comr = com - com2;
-	cout << "El primer numero complejo: (" << com.real() << " + " << com.imag()  << "j) " ;
+    cout << "El primer numero complejo: " << com ;
 	cout << "tiene de norma = " << nor << " y un angulo = " << ang << "rad." << endl;
-	cout << "El segundo numero complejo: (" << com2.real() << " + " << com2.imag() << "j) ";
-	cout << "Se suma con el primero y da: ("<< coms.real() << " + " << coms.imag() << "j) "<< endl;
-	cout << "y su resta da: (" << comr.real() << " + " << comr.imag() << "j) " << endl;
-	cout << "Otro complejo: (" << ptr->real() << " + " << ptr->imag() << "j) " << endl;
-	cout << "Otro complejo: (" << ptr1->real() << " + " << ptr1->imag() << "j) " << endl;
+    cout << "El segundo numero complejo: "<< com2;
+    cout << "Se suma con el primero y da: "<< coms << endl;
+    cout << "y su resta da: " << comr << endl;
+    cout << "Otro complejo: " << *ptr << endl;
+    cout << "Otro complejo: " << *ptr1 << endl;
 
 return 0;
 }

@@ -22,15 +22,12 @@ float Complejo::real(){
 float Complejo::imag(){
 	return im;
 }
-
 float Complejo::norma(){
 	return sqrt(re*re+im*im);
 }
-
 float Complejo::angulo(){
 	return atan2(im,re);
 }
-
 Complejo Complejo::operator+(Complejo &a){
 	Complejo c;
 	c.re = re + a.re;
@@ -42,4 +39,7 @@ Complejo Complejo::operator-(Complejo &a){
 	c.re = re - a.re;
 	c.im = im - a.im;
 	return c;
+}
+ostream& operator<<(ostream &o, Complejo &a){
+    o << "("<< a.re << " + " << a.im << "j)";
 }

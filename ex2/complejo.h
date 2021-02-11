@@ -18,4 +18,5 @@ class Complejo{  //Mi extructura complex (tipo de variable) esta formada por dos
 
 	Complejo operator+(Complejo &a);
 	Complejo operator-(Complejo &a);
+    friend ostream& operator<<(ostream &o, Complejo &a); //la defini como amiga, para que pueda leer las variables internas del objeto complejo.
 };
