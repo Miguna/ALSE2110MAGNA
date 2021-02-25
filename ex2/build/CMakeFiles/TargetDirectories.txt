@@ -1,0 +1,3 @@
+/home/miguel/ALSE2110MAGNA/ex2/build/CMakeFiles/rebuild_cache.dir
+/home/miguel/ALSE2110MAGNA/ex2/build/CMakeFiles/Complejo_C.dir
+/home/miguel/ALSE2110MAGNA/ex2/build/CMakeFiles/edit_cache.dir

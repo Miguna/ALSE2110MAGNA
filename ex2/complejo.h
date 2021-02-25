@@ -1,3 +1,5 @@
+//#ifndef _COMPLEJO  //Si no esta definido el tag COMPLEJO
+//#define _COMPLEJO  //Defina el tag COMPLEJO
 #include <iostream>
 #include <cmath>    //Para las operaciones y funciones matematicas
 #include <stdlib.h> //Para la funcion atof;
@@ -20,3 +22,4 @@ class Complejo{  //Mi extructura complex (tipo de variable) esta formada por dos
 	Complejo operator-(Complejo &a);
     friend ostream& operator<<(ostream &o, Complejo &a); //la defini como amiga, para que pueda leer las variables internas del objeto complejo.
 };
+//#endif //solo se compila una vez

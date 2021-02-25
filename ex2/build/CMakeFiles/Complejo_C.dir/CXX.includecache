@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/miguel/ALSE2110MAGNA/ex2/complejo.cpp
+iostream
+-
+cmath
+-
+stdlib.h
+-
+complejo.h
+/home/miguel/ALSE2110MAGNA/ex2/complejo.h
+
+/home/miguel/ALSE2110MAGNA/ex2/complejo.h
+iostream
+-
+cmath
+-
+stdlib.h
+-
+
+/home/miguel/ALSE2110MAGNA/ex2/main.cpp
+iostream
+-
+cmath
+-
+stdlib.h
+-
+complejo.h
+/home/miguel/ALSE2110MAGNA/ex2/complejo.h
+
