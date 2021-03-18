@@ -2,7 +2,6 @@
  * Project Untitled
  */
 
-
 #include "Circulo.h"
 #include <math.h>
 
@@ -12,7 +11,6 @@ Circulo::Circulo(float r, float x, float y) {
     _yc = y ;
     _idTipo =  circulo ;
 }
-
 Circulo::Circulo(string parametros){
     // cout << "Circulo: " << parametros << endl;
     size_t posicion = 0;
@@ -29,25 +27,21 @@ Circulo::Circulo(string parametros){
     posicion = parametros.find(" ",pos_ant);
     _angulo = atof(parametros.substr(pos_ant,posicion).c_str());
     cout << "Círculo de R: " << _radio << ", Xc: " << _xc << ", Yc: " << _yc << ", Ángulo: " << _angulo << endl;
+    _area= _perimetro=0.;
 }
-
 Circulo::Circulo() {
 
 }
-
 float Circulo::area(){
-    if( _area == 0 ) M_PI * _radio * _radio;
+    if( _area == 0 ) _area = M_PI * _radio * _radio;
     return _area;
 }
-
 float Circulo::perimetro(){
     return 2 * M_PI * _radio;
 }
-
 string Circulo::queSoy(){
     return "Soy un círculo";
 }
-
 ostream& operator<<(ostream& stream, Circulo& c){
    stream << "Yo soy un círculo" ;
    return stream;

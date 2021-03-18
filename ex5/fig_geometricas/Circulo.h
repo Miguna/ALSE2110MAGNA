@@ -30,7 +30,6 @@ class Circulo {
     float _radio;
     float _xc;
     float _yc;
-	
     Circulo();
 };
 

@@ -1,19 +1,10 @@
-/**
- * Project Untitled
- */
-
-
 #include "Circulo.h"
 #include <iostream>
 #include <cmath>
-
 using namespace std;
-
 /**
  * Circulo implementation
  */
-
-
 Circulo::Circulo(float r, float x, float y ) {
     if ( r > 0. ) {
         _radio = r;
@@ -24,15 +15,12 @@ Circulo::Circulo(float r, float x, float y ) {
     }
 
 }
-
 float Circulo::area() {
     return M_PI * _radio * _radio;
 }
-
 float Circulo::perimetro() {
     return 2 * M_PI * _radio;
 }
-
 bool Circulo::intersectan(Circulo &c){
     float dx, dy;
     dx = _xc - c._xc;
@@ -41,7 +29,6 @@ bool Circulo::intersectan(Circulo &c){
     //cout << dx << " : " << _radio + c._radio << endl;
     return ( dx <= ( _radio + c._radio ) );
 }
-
 bool Circulo::intersectan(Cuadrado &c){
     float dx, dy;
     dx = _xc - c.getX();
@@ -50,12 +37,9 @@ bool Circulo::intersectan(Cuadrado &c){
     //cout << dx << " : " << _radio + c._radio << endl;
     return ( dx <= ( _radio + c.getLado() / 2. ) );
 }
-
-
 ostream& operator<<(ostream& stream,  Circulo &c) {
     stream  << "Soy un círculo de radio: " << c._radio << ". Mi perímetro es: " << c.perimetro() <<
                " y mi área es: " << c.area();
 
     return stream;
 }
-

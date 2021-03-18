@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/fig_geometricas_file.dir/main.cpp.o CMakeFiles/fig_geometricas_file.dir/Circulo.cpp.o CMakeFiles/fig_geometricas_file.dir/Cuadrado.cpp.o CMakeFiles/fig_geometricas_file.dir/Triangulo.cpp.o CMakeFiles/fig_geometricas_file.dir/Pentagono.cpp.o CMakeFiles/fig_geometricas_file.dir/Geometrica.cpp.o  -o fig_geometricas_file 

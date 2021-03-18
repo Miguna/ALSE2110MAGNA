@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fig_geometricas_file"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fig_geometricas_file">
+				<Option output="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/fig_geometricas_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 fig_geometricas_file"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fig_geometricas_file/fast">
+				<Option output="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/fig_geometricas_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 fig_geometricas_file/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Circulo.cpp">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Circulo.h">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Cuadrado.cpp">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Cuadrado.h">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Geometrica.cpp">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Geometrica.h">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Pentagono.cpp">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Pentagono.h">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Triangulo.cpp">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/Triangulo.h">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/main.cpp">
+			<Option target="fig_geometricas_file"/>
+		</Unit>
+		<Unit filename="/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -29,14 +29,15 @@ Pentagono::Pentagono(string parametros) {
     _lado = atof(parametros.substr(0,posicion).c_str());
     pos_ant =  posicion + 1;
     posicion = parametros.find(" ",pos_ant);
-    setX( atof(parametros.substr(0,posicion).c_str()) );
+    setX( atof(parametros.substr(pos_ant,posicion).c_str()) );
     pos_ant =  posicion + 1;
     posicion = parametros.find(" ",pos_ant);
-    setY( atof(parametros.substr(0,posicion).c_str()) );
+    setY( atof(parametros.substr(pos_ant,posicion).c_str()) );
     pos_ant =  posicion + 1;
     posicion = parametros.find(" ",pos_ant);
-    setAngulo( atof(parametros.substr(0,posicion).c_str()) );
+    setAngulo( atof(parametros.substr(pos_ant,posicion).c_str()) );
     cout << "Pentágono de L: " << _lado << ", Xc: " << _xc << ", Yc: " << _yc << ", Ángulo: " << _angulo << endl;
+    _area= _perimetro=0.;
 }
 
 Pentagono::Pentagono() {

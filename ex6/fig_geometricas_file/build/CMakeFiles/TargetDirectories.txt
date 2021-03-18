@@ -1,0 +1,3 @@
+/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/CMakeFiles/rebuild_cache.dir
+/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/CMakeFiles/fig_geometricas_file.dir
+/home/miguel/ALSE2110MAGNA/ex6/fig_geometricas_file/build/CMakeFiles/edit_cache.dir
